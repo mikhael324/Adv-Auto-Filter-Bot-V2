@@ -38,7 +38,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    '🔰⭕ Join Our Channel ⭕🔰', url="https://t.me/joinchat/1MWZaLVWmmNiY2I1"
                                 )
                         ]
                     ]
@@ -57,7 +57,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    '🔰⭕ Join Our Channel ⭕🔰', url="https://t.me/joinchat/1MWZaLVWmmNiY2I1"
                                 )
                         ]
                     ]
@@ -89,10 +89,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot-V2')
+        InlineKeyboardButton(' 🔰⭕ Channel ⭕🔰 ', url='https://t.me/joinchat/1MWZaLVWmmNiY2I1'),
+        InlineKeyboardButton(' 🔰⭕ Group ⭕🔰 ', url ='https://t.me/joinchat/K0ebUqNMHJxmYjE1')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+        InlineKeyboardButton('Support 🛠', url=' https://t.me/joinchat/K0ebUqNMHJxmYjE1 ')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
