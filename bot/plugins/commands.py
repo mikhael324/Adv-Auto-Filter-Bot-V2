@@ -92,7 +92,7 @@ async def start(bot, update):
         InlineKeyboardButton(' 🔰⭕ Channel ⭕🔰 ', url='https://t.me/joinchat/1MWZaLVWmmNiY2I1'),
         InlineKeyboardButton(' 🔰⭕ Group ⭕🔰 ', url ='https://t.me/joinchat/K0ebUqNMHJxmYjE1')
     ],[
-        InlineKeyboardButton('Support 🛠', url=' https://t.me/joinchat/K0ebUqNMHJxmYjE1 ')
+        InlineKeyboardButton('Support 🛠', url='https://t.me/joinchat/K0ebUqNMHJxmYjE1')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
