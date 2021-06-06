@@ -23,7 +23,7 @@ async def start(bot, update):
         if (file_id or file_type) == None:
             return
         
-        caption =f"hello world 🔨🔨 /n/n("<code>" + file_name + "</code>")"
+        caption =f"hello world 🔨🔨/n/n{file_name}"
 
 
 
