@@ -23,7 +23,7 @@ async def start(bot, update):
         if (file_id or file_type) == None:
             return
         
-        caption =f"@MVM_Links {file_name}"
+        caption =Translation.CAPTION.format(file_name)
 
 
 
