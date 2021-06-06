@@ -25,13 +25,13 @@ async def start(bot, update):
         
 caption = file_caption if file_caption != ("" or None) else ("<code>" + file_name + "</code>")
 
-
+if file_type == "document":
 
 
 
 
         
-        if file_type == "document":
+        
         
             await bot.send_document(
                 chat_id=update.chat.id,
