@@ -24,7 +24,7 @@ async def start(bot, update):
         if (file_id or file_type) == None:
             return
         
-        caption = file_name if file_name != ("" or None) else ("<code>" + file_caption + "</code>")
+        caption = file_name if file_name != ("" or None) else ("<code>" + file_caption + "</code>") \n f"@MVM_Links"
         
         if file_type == "document":
         
