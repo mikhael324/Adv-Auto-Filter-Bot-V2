@@ -23,7 +23,7 @@ async def start(bot, update):
         if (file_id or file_type) == None:
             return
         
-        caption =Translation.CAPTION.format(file_name)
+        caption = {file_caption}
 
 
 
