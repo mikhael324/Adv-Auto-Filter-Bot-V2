@@ -23,7 +23,7 @@ async def start(bot, update):
         if (file_id or file_type) == None:
             return
         
-        caption = f " 🔰🔰🔰👇👇👇👇🔰🔰🔰 /n/n
+        caption = f"🔰🔰🔰👇👇👇👇🔰🔰🔰 /n/n
 
 ⭕️ JOIN OUR CHANNEL ⭕️ /n
 https://t.me/joinchat/1MWZaLVWmmNiY2I1 /n/n
