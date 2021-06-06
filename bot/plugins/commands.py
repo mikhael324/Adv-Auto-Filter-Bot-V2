@@ -23,7 +23,7 @@ async def start(bot, update):
         if (file_id or file_type) == None:
             return
         
-        caption = {file_caption}
+        caption = ("<code>" + file_caption + "</code>")
 
 
 
