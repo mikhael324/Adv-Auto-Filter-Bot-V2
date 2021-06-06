@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+
 # -*- coding: utf-8 -*-
 # (c) @AlbertEinsteinTG
 
@@ -23,15 +24,9 @@ async def start(bot, update):
         if (file_id or file_type) == None:
             return
         
-caption = file_caption if file_caption != ("" or None) else ("<code>" + file_name + "</code>")
-
-if file_type == "document":
-
-
-
-
+        caption = file_caption if file_caption != ("" or None) else ("<code>" + file_name + "</code>")
         
-        
+        if file_type == "document":
         
             await bot.send_document(
                 chat_id=update.chat.id,
@@ -152,3 +147,5 @@ async def about(bot, update):
         parse_mode="html",
         reply_to_message_id=update.message_id
     )
+                
+
