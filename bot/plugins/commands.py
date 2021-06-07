@@ -24,7 +24,7 @@ async def start(bot, update):
         if (file_id or file_type) == None:
             return
         
-        caption = f"{file_name} \n \n hello World"
+        caption = f"{file_name} \n \n 🔰🔰🔰👇👇👇👇🔰🔰🔰\n \n ⭕️ JOIN OUR CHANNEL ⭕️ \n https://t.me/joinchat/1MWZaLVWmmNiY2I1 \n \n ⭕️ JOIN OUR GROUP ⭕️ \n https://t.me/joinchat/iWzX4JWSLmc3Zjc9"
         
         if file_type == "document":
         
