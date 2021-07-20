@@ -24,7 +24,7 @@ async def start(bot, update):
         if (file_id or file_type) == None:
             return
         
-        caption = f"@MvM_Links <code>{file_name}</code> \n \n 🔰🔰🔰👇👇👇👇🔰🔰🔰\n \n ⭕️ JOIN OUR CHANNEL ⭕️ \n https://t.me/joinchat/1MWZaLVWmmNiY2I1 \n \n ⭕️ JOIN OUR GROUP ⭕️ \n https://t.me/joinchat/iWzX4JWSLmc3Zjc9"
+        caption = f"@MvM_Links <code>{file_name}</code> \n \n 🔰🔰🔰👇👇👇👇🔰🔰🔰\n \n ⭕️ JOIN OUR GROUP ⭕️ \n https://t.me/joinchat/iWzX4JWSLmc3Zjc9"
         
         if file_type == "document":
         
@@ -39,7 +39,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🔰⭕ Join Our Channel ⭕🔰', url="https://t.me/joinchat/1MWZaLVWmmNiY2I1"
+                                    '🔰⭕ Join Our Channel ⭕🔰', url="https://t.me/joinchat/iWzX4JWSLmc3Zjc9"
                                 )
                         ]
                     ]
@@ -58,7 +58,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🔰⭕ Join Our Channel ⭕🔰', url="https://t.me/joinchat/1MWZaLVWmmNiY2I1"
+                                    '🔰⭕ Join Our Channel ⭕🔰', url="https://t.me/joinchat/iWzX4JWSLmc3Zjc9"
                                 )
                         ]
                     ]
@@ -90,7 +90,7 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton(' 🔰⭕ Channel ⭕🔰 ', url='https://t.me/joinchat/1MWZaLVWmmNiY2I1'),
+        InlineKeyboardButton(' 🔰⭕ Channel ⭕🔰 ', url='https://t.me/joinchat/iWzX4JWSLmc3Zjc9'),
         InlineKeyboardButton(' 🔰⭕ Group ⭕🔰 ', url ='https://t.me/joinchat/K0ebUqNMHJxmYjE1')
     ],[
         InlineKeyboardButton('Support 🛠', url='https://t.me/joinchat/K0ebUqNMHJxmYjE1')
