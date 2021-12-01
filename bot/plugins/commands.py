@@ -24,7 +24,7 @@ async def start(bot, update):
         if (file_id or file_type) == None:
             return
         
-        caption = f"@MvM_Links <code>{file_name}</code> \n \n 🔰🔰🔰👇👇👇👇🔰🔰🔰\n \n ⭕️ JOIN OUR GROUP ⭕️ \n https://t.me/joinchat/EGxL1FaWFttlNmM1"
+        caption = f"@OTT_Links <code>{file_name}</code> \n \n 🔰🔰🔰👇👇👇👇🔰🔰🔰\n \n ⭕️ JOIN OUR GROUP ⭕️ \n https://t.me/+K0ebUqNMHJxmYjE1"
         
         if file_type == "document":
         
@@ -39,7 +39,9 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🔰⭕ Join Our Channel ⭕🔰', url="https://t.me/joinchat/EGxL1FaWFttlNmM1"
+                                    '🔰⭕ Join Our Group ⭕🔰', url="https://t.me/+K0ebUqNMHJxmYjE1"
+
+"
                                 )
                         ]
                     ]
@@ -58,7 +60,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🔰⭕ Join Our Channel ⭕🔰', url="https://t.me/joinchat/EGxL1FaWFttlNmM1"
+                                    '🔰⭕ Join Our Group ⭕🔰', url="https://t.me/+K0ebUqNMHJxmYjE1"
                                 )
                         ]
                     ]
@@ -90,10 +92,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton(' 🔰⭕ Channel ⭕🔰 ', url='https://t.me/joinchat/EGxL1FaWFttlNmM1'),
-        InlineKeyboardButton(' 🔰⭕ Group ⭕🔰 ', url ='https://t.me/joinchat/EGxL1FaWFttlNmM1')
+        InlineKeyboardButton(' 🔰⭕ Channel ⭕🔰 ', url='https://t.me/+K0ebUqNMHJxmYjE1'),
+        InlineKeyboardButton(' 🔰⭕ Group ⭕🔰 ', url ='https://t.me/+K0ebUqNMHJxmYjE1')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/joinchat/EGxL1FaWFttlNmM1')
+        InlineKeyboardButton('Support 🛠', url='https://t.me/+K0ebUqNMHJxmYjE1')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
