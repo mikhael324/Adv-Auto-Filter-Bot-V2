@@ -41,7 +41,6 @@ async def start(bot, update):
                                 (
                                     '🔰⭕ Join Our Group ⭕🔰', url="https://t.me/+K0ebUqNMHJxmYjE1"
 
-"
                                 )
                         ]
                     ]
