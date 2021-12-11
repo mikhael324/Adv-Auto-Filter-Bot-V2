@@ -126,6 +126,7 @@ async def auto_filter(bot, update):
             )
         
     else:
+        text="""No Files Found"""
         return # return if no files found for that query
     
 
