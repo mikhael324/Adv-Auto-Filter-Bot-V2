@@ -24,7 +24,7 @@ async def start(bot, update):
         if (file_id or file_type) == None:
             return
         
-        caption = f"@MvM_Links <code>{file_name}</code> \n \n 🔰🔰🔰👇👇👇👇🔰🔰🔰\n \n ⭕️ JOIN OUR GROUP ⭕️ \n https://t.me/joinchat/EGxL1FaWFttlNmM1 \n \n 🔱Share&Join🔱"
+        caption = f"@MvM_Links <code>{file_name}</code> \n \n 🔰🔰🔰👇👇👇👇🔰🔰🔰\n \n ⭕️ JOIN OUR GROUP ⭕️ \n https://t.me/joinchat/EGxL1FaWFttlNmM1 \n \n 🔱 𝐉𝐎𝐈𝐍 & 𝐒𝐇𝐀𝐑𝐄 🔱"
         
         if file_type == "document":
         
