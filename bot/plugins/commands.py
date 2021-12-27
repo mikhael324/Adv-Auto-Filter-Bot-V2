@@ -24,7 +24,7 @@ async def start(bot, update):
         if (file_id or file_type) == None:
             return
         
-        caption = f"@MvM_Links <code>{file_name}</code> \n \n 🔰🔰🔰👇👇👇👇🔰🔰🔰\n \n ⭕️ JOIN OUR GROUP ⭕️ \n https://t.me/joinchat/EGxL1FaWFttlNmM1 \n \n 🔱 𝐉𝐎𝐈𝐍 & 𝐒𝐇𝐀𝐑𝐄 🔱"
+        caption = f"@MvM_Links <code>{file_name}</code> \n \n 🔰🔰🔰👇👇👇👇🔰🔰🔰\n \n ⭕️ JOIN OUR GROUP ⭕️ \n https://t.me/+RR5jV_KfvqU5ZTY1 \n \n 🔱 𝐉𝐎𝐈𝐍 & 𝐒𝐇𝐀𝐑𝐄 🔱"
         
         if file_type == "document":
         
@@ -39,7 +39,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🔰⭕ Join Our Group ⭕🔰', url="https://t.me/joinchat/EGxL1FaWFttlNmM1"
+                                    '🔰⭕ Join Our Group ⭕🔰', url="https://t.me/+RR5jV_KfvqU5ZTY1"
 
                                 )
                         ]
@@ -59,7 +59,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🔰⭕ Join Our Group ⭕🔰', url="https://t.me/joinchat/EGxL1FaWFttlNmM1"
+                                    '🔰⭕ Join Our Group ⭕🔰', url="https://t.me/+RR5jV_KfvqU5ZTY1"
                                 )
                         ]
                     ]
@@ -78,7 +78,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/joinchat/EGxL1FaWFttlNmM1"
+                                    'Developers', url="https://t.me/+RR5jV_KfvqU5ZTY1"
                                 )
                         ]
                     ]
@@ -91,10 +91,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton(' 🔰⭕ Channel ⭕🔰 ', url='https://t.me/joinchat/EGxL1FaWFttlNmM1'),
-        InlineKeyboardButton(' 🔰⭕ Group ⭕🔰 ', url ='https://t.me/joinchat/EGxL1FaWFttlNmM1')
+        InlineKeyboardButton(' 🔰⭕ Channel ⭕🔰 ', url='https://t.me/+RR5jV_KfvqU5ZTY1'),
+        InlineKeyboardButton(' 🔰⭕ Group ⭕🔰 ', url ='https://t.me/+RR5jV_KfvqU5ZTY1')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/joinchat/EGxL1FaWFttlNmM1')
+        InlineKeyboardButton('Support 🛠', url='https://t.me/+RR5jV_KfvqU5ZTY1')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
